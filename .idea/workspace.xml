@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="Unnamed-0" />
+        <option name="packageNamePattern" value="com.williamquast.androidlocationdemo" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Unnamed-0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0f5aa2f-5ae7-46c1-9f55-652bab2b4788" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/ErrorDialogFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/WifiProximityActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/WifiProximityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_3_1_36_aar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\android-location-demo.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\ic_launcher-web.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\libs\android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\layout\activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\menu\main.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-sw600dp\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-sw720dp-land\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-v11\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-v14\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\src\com\williamquast\locationdemo\ErrorDialogFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\src\com\williamquast\locationdemo\MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\google-play-services_lib.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\libs\google-play-services.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\libs\google-play-services.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\color\common_signin_btn_text_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-af\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-am\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ar\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-be\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-bg\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ca\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-cs\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-da\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-de\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-el\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-en-rGB\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-es-rUS\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-es\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-et\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fa\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hu\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-in\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-it\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-iw\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ja\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ko\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-lt\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-lv\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ms\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-nb\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-nl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt-rBR\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt-rPT\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ro\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ru\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sk\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sv\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sw\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-th\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-tl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-tr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-uk\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-vi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zh-rCN\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zh-rTW\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zu\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values\colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values\maps_attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\src\android\UnusedStub.java" afterPath="" />
+    </list>
+    <ignored path="android-location-demo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="android-location-demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="FusedLocationActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="43" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="3621">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="43" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="884">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#618#827#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#951#1160#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="17" selection-start="1152" selection-end="1152" vertical-scroll-proportion="1.179402" vertical-offset="121" max-vertical-offset="731">
+              <folding>
+                <element signature="e#744#762#0" expanded="true" />
+                <element signature="e#890#908#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="-8.52" vertical-offset="161" max-vertical-offset="561">
+              <folding>
+                <element signature="e#917#938#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fused_location.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/fused_location.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="android-location-demo" />
+              <option name="path" value="D:\Dropbox\workspace\android-location-demo\build.gradle" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="application" />
+                <option name="path" value="$PROJECT_DIR$/application/build.gradle" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="android-location-demo" />
+                <option name="path" value="$PROJECT_DIR$/build.gradle" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/application/build.gradle" />
+        <option value="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java" />
+        <option value="$PROJECT_DIR$/application/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/application/src/main/res/layout/fused_location.xml" />
+        <option value="$PROJECT_DIR$/application/src/main/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/application/src/main/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:google-play-services)" />
+      <problem id="library-invalid-classes-path(library:project:google-play-services)" />
+      <problem id="unused-library(library:project:google-play-services)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-location-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-location-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-location-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-location-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-location-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-location-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-location-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/google-play-services_lib" />
+    <property name="project.structure.side.proportion" value="0.31865585" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="de076411" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_7_by_Google" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\workspace\android-location-demo\" />
+      <recent name="D:\Dropbox\workspace\android-location-demo\android-location-demo\src\main\java\com\williamquast\androidlocationdemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.application">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="android-location-demo-android-location-demo" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="android-location-demo-android-location-demo" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="application" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="application" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.android-location-demo-android-location-demo" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.application" />
+    </list>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0f5aa2f-5ae7-46c1-9f55-652bab2b4788" name="Default" comment="" />
+      <created>1372953838795</created>
+      <updated>1372953838795</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67001677" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4522613" sideWeight="0.1560606" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2689394" sideWeight="0.5008375" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4522613" sideWeight="0.8439394" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67001677" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.5477387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.7272725" vertical-offset="2516" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5207756" vertical-offset="1271" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22" selection-start="58" selection-end="58" vertical-scroll-proportion="0.045454547" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.045454547" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="383" selection-end="383" vertical-scroll-proportion="0.8636364" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="43" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="3621">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/fused_location.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="-8.52" vertical-offset="161" max-vertical-offset="561">
+          <folding>
+            <element signature="e#917#938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="43" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="884">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#618#827#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#951#1160#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="17" selection-start="1152" selection-end="1152" vertical-scroll-proportion="1.179402" vertical-offset="121" max-vertical-offset="731">
+          <folding>
+            <element signature="e#744#762#0" expanded="true" />
+            <element signature="e#890#908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31865585" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31865585" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31865585" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 4.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31865585" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>application</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31865585" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android 4.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31865585" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
