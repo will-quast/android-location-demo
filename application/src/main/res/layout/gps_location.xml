@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity" >
+
+    <LinearLayout
+            android:id="@+id/latitudeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Latitude:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+                android:id="@+id/latitudeText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/longitudeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Longitude:"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+                android:id="@+id/longitudeText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/qualityLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Quality:"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+                android:id="@+id/qualityText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Unknown"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/totalSatLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total Sats:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+                android:id="@+id/satsTotalText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/satsUsedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Used Sats:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+                android:id="@+id/satsUsedText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
 
     private Button fusedLocationButton;
     private Button wifiProximityButton;
+    private Button gpsLocationButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getBaseContext(), WifiProximityActivity.class));
+            }
+        });
+
+        gpsLocationButton = (Button) findViewById(R.id.gpsLocation);
+        gpsLocationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getBaseContext(), GpsLocationActivity.class));
             }
         });
 

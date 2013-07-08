@@ -24,4 +24,12 @@
             android:layout_below="@+id/fusedLocation"
             android:layout_alignParentLeft="true"/>
 
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS w/ Quality Demo"
+            android:id="@+id/gpsLocation"
+            android:layout_below="@+id/wifiProximity"
+            android:layout_alignParentLeft="true"/>
+
 </RelativeLayout>

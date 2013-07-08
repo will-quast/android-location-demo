@@ -71,10 +71,8 @@ public class WifiProximityService extends Service {
         public void onReceive(Context context, Intent intent) {
             PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, WAKE_LOCK_TAG);
             wakeLock.acquire();
-
             try {
                 List<ScanResult> scan = wifiManager.getScanResults();
-
                 for (ScanResult result : scan) {
                     if (TARGET_SSID.equals(result.SSID)) {
                         Notification notification = new NotificationCompat.Builder(context)
