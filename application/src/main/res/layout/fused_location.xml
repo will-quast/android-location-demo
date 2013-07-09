@@ -1,11 +1,80 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin">
 
+    <TextView
+            android:id="@+id/lastLocationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <Button
+            android:id="@+id/refreshButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/reset"
+            android:layout_below="@id/lastLocationTextView"
+            />
+
+    <Button
+            android:id="@+id/stopButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/refreshButton"
+            android:layout_below="@id/lastLocationTextView"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:text="@string/stop"
+            />
+
+    <Button
+            android:id="@+id/startButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/lastLocationTextView"
+            android:layout_toRightOf="@id/stopButton"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:text="@string/start"
+            />
+
+    <CheckBox
+            android:id="@+id/gpsCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/refreshButton"
+            android:text="@string/gps"
+            />
+
+    <CheckBox
+            android:id="@+id/networkCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/refreshButton"
+            android:layout_toRightOf="@id/gpsCheckbox"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:text="@string/network"
+            />
+
+    <CheckBox
+            android:id="@+id/fusedCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/refreshButton"
+            android:layout_toRightOf="@id/networkCheckbox"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:text="@string/fused"
+            />
+
+    <fragment
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/map"
+            android:layout_below="@id/gpsCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            map:cameraZoom="16"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
 
 </RelativeLayout>

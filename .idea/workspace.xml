@@ -27,183 +27,183 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f5aa2f-5ae7-46c1-9f55-652bab2b4788" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/ErrorDialogFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/WifiProximityActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/WifiProximityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/res/layout/main.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_3_1_36_aar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/WifiProximityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/res/layout/main.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\android-location-demo.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\ic_launcher-web.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\libs\android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-xxhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\layout\activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\menu\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-sw600dp\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-sw720dp-land\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-v11\styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-v14\styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\src\com\williamquast\locationdemo\ErrorDialogFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\src\com\williamquast\locationdemo\MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\build.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\google-play-services_lib.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\libs\google-play-services.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\libs\google-play-services.jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\color\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/ErrorDialogFragment.java" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-af\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-am\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ar\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-be\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-bg\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ca\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-cs\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-da\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-de\strings.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-el\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-en-rGB\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-es-rUS\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-es\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-et\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fa\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-in\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-it\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-iw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ja\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ko\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-lt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-lv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ms\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-nb\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-nl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt-rBR\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt-rPT\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ro\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ru\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sv\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ro\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-af\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\project.properties" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-th\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-tl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-tr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-uk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-vi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-v11\styles.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zh-rCN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zh-rTW\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values\colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\google-play-services_lib.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\src\android\UnusedStub.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\libs\android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hu\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ko\strings.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values\maps_attrs.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\src\android\UnusedStub.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-cs\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-de\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-es-rUS\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zh-rTW\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\menu\main.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-bg\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-v14\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-am\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\libs\google-play-services.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ar\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\src\com\williamquast\locationdemo\ErrorDialogFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\ic_launcher-web.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt-rBR\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt-rPT\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-zu\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ja\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values\colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-nl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-nb\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-sw720dp-land\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\libs\google-play-services.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-es\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-tr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-be\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-uk\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\android-location-demo.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-lv\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sv\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-vi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-it\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-sr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ms\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-pt\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-et\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\src\com\williamquast\locationdemo\MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ru\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fa\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-th\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-xhdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-ca\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-en-rGB\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-hdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-lt\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable-mdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\drawable-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\layout\activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-hi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-in\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\android-location-demo\res\values-sw600dp\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-fr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-da\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\values-tl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\color\common_signin_btn_text_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\workspace\android-location-demo\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" afterPath="" />
     </list>
     <ignored path="android-location-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -221,8 +221,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -270,10 +269,8 @@
       <file leaf-file-name="FusedLocationActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="43" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="3621">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="38" column="22" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="6360">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -281,26 +278,17 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="43" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="884">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#618#827#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#951#1160#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-              </folding>
+            <state line="23" column="43" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="780">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="17" selection-start="1152" selection-end="1152" vertical-scroll-proportion="1.179402" vertical-offset="121" max-vertical-offset="731">
-              <folding>
-                <element signature="e#744#762#0" expanded="true" />
-                <element signature="e#890#908#0" expanded="true" />
-              </folding>
+            <state line="28" column="17" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="855">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -308,10 +296,8 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="-8.52" vertical-offset="161" max-vertical-offset="561">
-              <folding>
-                <element signature="e#917#938#0" expanded="true" />
-              </folding>
+            <state line="22" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="495">
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -319,10 +305,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fused_location.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fused_location.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/fused_location.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="289">
+            <state line="11" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
@@ -393,10 +379,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -505,11 +490,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_7_by_Google" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -695,33 +680,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="809" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67001677" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4522613" sideWeight="0.8439394" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2689394" sideWeight="0.5008375" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4522613" sideWeight="0.1560606" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.5477387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67001677" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4522613" sideWeight="0.1560606" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2689394" sideWeight="0.5008375" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4522613" sideWeight="0.8439394" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67001677" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.5477387" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -786,93 +771,45 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.7272725" vertical-offset="2516" max-vertical-offset="2890">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5207756" vertical-offset="1271" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="58" selection-end="58" vertical-scroll-proportion="0.045454547" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.045454547" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="383" selection-end="383" vertical-scroll-proportion="0.8636364" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/FusedLocationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="43" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="3621">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/fused_location.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="289">
+        <state line="38" column="22" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6360">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="-8.52" vertical-offset="161" max-vertical-offset="561">
-          <folding>
-            <element signature="e#917#938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/main/java/com/williamquast/androidlocationdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="884">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#618#827#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#951#1160#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-          </folding>
+        <state line="23" column="43" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="780">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="1152" selection-end="1152" vertical-scroll-proportion="1.179402" vertical-offset="121" max-vertical-offset="731">
-          <folding>
-            <element signature="e#744#762#0" expanded="true" />
-            <element signature="e#890#908#0" expanded="true" />
-          </folding>
+        <state line="28" column="17" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="855">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/res/layout/fused_location.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
