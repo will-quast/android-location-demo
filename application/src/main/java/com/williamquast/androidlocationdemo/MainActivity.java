@@ -10,8 +10,8 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 
     private Button fusedLocationButton;
-    private Button wifiProximityButton;
     private Button gpsLocationButton;
+    private Button wifiProximityButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,15 +41,5 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(getBaseContext(), GpsLocationActivity.class));
             }
         });
-
     }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-    
 }

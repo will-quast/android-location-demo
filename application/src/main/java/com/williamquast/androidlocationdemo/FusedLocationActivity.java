@@ -27,7 +27,7 @@ public class FusedLocationActivity extends FragmentActivity {
 	private Dialog errorDialog;
 	private LocationClient locationClient;
 	private LocationCallback mLocationCallback = new LocationCallback();
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "FusedLocationActivity";
     private static final int LOCATION_UPDATES_INTERVAL = 10000; // Setting 10 sec interval for location updates
     
 	
@@ -81,13 +81,6 @@ public class FusedLocationActivity extends FragmentActivity {
         request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         locationClient.requestLocationUpdates(request, mLocationCallback);
     }
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
 	
 	private void showErrorDialog(ConnectionResult connectionResult) {
 		// Get the error code

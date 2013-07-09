@@ -12,6 +12,7 @@
 bin/
 gen/
 build/
+taskArtifacts/
 
 # Local configuration file (sdk path, etc)
 local.properties
