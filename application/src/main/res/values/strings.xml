@@ -15,4 +15,7 @@
     <string name="gps">GPS</string>
     <string name="network">Network</string>
     <string name="fused">Fused</string>
+    <string name="no_location_provider_enabled_title">No Location Provider Enabled</string>
+    <string name="no_location_provider_enabled_message">Please enable a location provider in Settings.</string>
+    <string name="ok">OK</string>
 </resources>

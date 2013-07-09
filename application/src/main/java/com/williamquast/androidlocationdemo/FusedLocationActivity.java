@@ -1,8 +1,10 @@
 package com.williamquast.androidlocationdemo;
 
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.IntentSender;
 import android.graphics.Color;
 import android.location.Location;
@@ -10,7 +12,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -58,10 +59,10 @@ public class FusedLocationActivity extends FragmentActivity {
     private DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy H:mm:ss.SSS");
     private List<Marker> markers;
     private LocationManager locationManager;
-
     private CheckBox gpsCheckbox;
     private CheckBox networkCheckbox;
     private CheckBox fusedCheckbox;
+    private boolean providersEnabled;
 
     /**
      * Called when the activity is first created.
@@ -72,13 +73,37 @@ public class FusedLocationActivity extends FragmentActivity {
         setContentView(R.layout.fused_location);
         lastLocationText = (TextView) findViewById(R.id.lastLocationTextView);
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        setupMap();
-        setupRefreshButton();
-        setupStopButton();
-        setupStartButton();
-        setupCheckboxes();
-        checkGooglePlayServiceAvailability(ERROR_DIALOG_ON_CREATE_REQUEST_CODE);
+        if(haveLocationProvider()) {
+            providersEnabled = true;
+            setupMap();
+            setupRefreshButton();
+            setupStopButton();
+            setupStartButton();
+            setupCheckboxes();
+            checkGooglePlayServiceAvailability(ERROR_DIALOG_ON_CREATE_REQUEST_CODE);
+        } else {
+            providersEnabled = false;
+            handleNoProvider();
+        }
 
+    }
+
+    private boolean haveLocationProvider() {
+        return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)
+                || locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+    }
+
+    private void handleNoProvider() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.no_location_provider_enabled_title)
+                .setMessage(R.string.no_location_provider_enabled_message)
+                .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        finish();
+                    }
+                });
+        builder.show();
     }
 
     private void setupCheckboxes() {
@@ -109,7 +134,7 @@ public class FusedLocationActivity extends FragmentActivity {
         });
 
         fusedCheckbox = (CheckBox) findViewById(R.id.fusedCheckbox);
-        fusedCheckbox.setTextColor(Color.rgb(160,120,240));
+        fusedCheckbox.setTextColor(Color.rgb(160, 120, 240));
         fusedCheckbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
@@ -172,17 +197,20 @@ public class FusedLocationActivity extends FragmentActivity {
     @Override
     public void onResume() {
         super.onResume();
-
-        checkGooglePlayServiceAvailability(ERROR_DIALOG_ON_RESUME_REQUEST_CODE);
-        restartLocationClient();
+        if(providersEnabled) {
+            checkGooglePlayServiceAvailability(ERROR_DIALOG_ON_RESUME_REQUEST_CODE);
+            restartLocationClient();
+        }
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        removeAllLocationUpdates();
-        if (locationClient.isConnected()) {
-            locationClient.disconnect();
+        if(providersEnabled) {
+            removeAllLocationUpdates();
+            if (locationClient.isConnected()) {
+                locationClient.disconnect();
+            }
         }
 
     }
@@ -283,7 +311,6 @@ public class FusedLocationActivity extends FragmentActivity {
 
     private void handleLocation(Location location) {
         // Update the mLocationStatus with the lat/lng of the location
-        Log.v(TAG, "LocationChanged == " + location.getProvider() + "@" + location.getLatitude() + "," + location.getLongitude());
         double latitude = location.getLatitude();
         double longitude = location.getLongitude();
         double accuracy = location.getAccuracy();
@@ -306,6 +333,8 @@ public class FusedLocationActivity extends FragmentActivity {
         markers.add(marker);
 
     }
+
+    ;
 
     private float getIconHue(String provider) {
         if (provider.equals(LocationManager.GPS_PROVIDER)) {
@@ -333,8 +362,6 @@ public class FusedLocationActivity extends FragmentActivity {
         }
     }
 
-    ;
-
     private class LocManagerListener implements android.location.LocationListener {
 
         @Override
@@ -360,6 +387,7 @@ public class FusedLocationActivity extends FragmentActivity {
 
         }
     }
+
 
     private ConnectionCallbacks connectionListener = new ConnectionCallbacks() {
 
@@ -400,12 +428,13 @@ public class FusedLocationActivity extends FragmentActivity {
                 }
             } else {
                 /*
-				 * If no resolution is available, display a dialog to the user with the error.
+                 * If no resolution is available, display a dialog to the user with the error.
 				 */
                 showErrorDialog(connectionResult);
             }
         }
 
     };
+
 
 }
