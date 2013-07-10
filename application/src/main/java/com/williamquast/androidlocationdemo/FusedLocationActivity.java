@@ -88,6 +88,134 @@ public class FusedLocationActivity extends FragmentActivity {
 
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(providersEnabled) {
+            checkGooglePlayServiceAvailability(ERROR_DIALOG_ON_RESUME_REQUEST_CODE);
+            restartLocationClient();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        if(providersEnabled) {
+            removeAllLocationUpdates();
+            if (locationClient.isConnected()) {
+                locationClient.disconnect();
+            }
+        }
+
+    }
+
+    private void removeAllLocationUpdates() {
+        if (locationClient.isConnected()) {
+            locationClient.removeLocationUpdates(mLocationCallback);
+        }
+        locationManager.removeUpdates(gpsListener);
+        locationManager.removeUpdates(networkListener);
+        gpsCheckbox.setChecked(false);
+        networkCheckbox.setChecked(false);
+        fusedCheckbox.setChecked(false);
+
+    }
+
+    private void init() {
+        if (locationClient == null) {
+            locationClient = new LocationClient(this, connectionListener, failedListener);
+            if (!(locationClient.isConnected() || locationClient.isConnecting())) {
+                locationClient.connect();
+            }
+        }
+    }
+
+    private void restartLocationClient() {
+        Log.d(TAG, "restartLocationClient");
+        if (!(locationClient.isConnected() || locationClient.isConnecting())) {
+            Log.d(TAG, "connecting!");
+            locationClient.connect(); // Somehow it becomes connected here
+            return;
+        }
+        Log.d(TAG, "already connected");
+        requestAllLocationUpdates();
+    }
+
+    private void requestAllLocationUpdates() {
+        requestFusedLocationUpdates();
+        requestGpsLocationUpdates();
+        requestGpsLocationUpdates();
+        gpsCheckbox.setChecked(true);
+        networkCheckbox.setChecked(true);
+        fusedCheckbox.setChecked(true);
+    }
+
+    private void requestFusedLocationUpdates() {
+        if (locationClient.isConnected()) {
+            LocationRequest request = LocationRequest.create()
+                    .setInterval(LOCATION_UPDATES_INTERVAL)
+                    .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
+                    .setExpirationDuration(6000)
+                    .setNumUpdates(1);
+            locationClient.requestLocationUpdates(request, mLocationCallback);
+        }
+    }
+
+    private void requestGpsLocationUpdates() {
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, gpsListener);
+    }
+
+    private void requestNetworkLocationUpdates() {
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, networkListener);
+    }
+
+    private void showErrorDialog(ConnectionResult connectionResult) {
+        // Get the error code
+        int errorCode = connectionResult.getErrorCode();
+        // Get the error dialog from Google Play services
+        Dialog errorDialog = GooglePlayServicesUtil.getErrorDialog(errorCode, this, CONNECTION_FAILURE_RESOLUTION_REQUEST);
+
+        // If Google Play services can provide an error dialog
+        if (errorDialog != null) {
+            // Create a new DialogFragment for the error dialog
+            ErrorDialogFragment errorFragment = new ErrorDialogFragment();
+            // Set the dialog in the DialogFragment
+            errorFragment.setDialog(errorDialog);
+            // Show the error dialog in the DialogFragment
+            errorFragment.show(getSupportFragmentManager(), "Location Updates");
+        }
+    }
+
+    private void checkGooglePlayServiceAvailability(int requestCode) {
+        // Query for the status of Google Play services on the device
+        int statusCode = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
+
+        if (statusCode == ConnectionResult.SUCCESS) {
+            Log.d(TAG, "play services success");
+            init();
+        } else {
+            if (GooglePlayServicesUtil.isUserRecoverableError(statusCode)) {
+                errorDialog = GooglePlayServicesUtil.getErrorDialog(statusCode,
+                        this, requestCode);
+                errorDialog.show();
+            } else {
+                Log.d(TAG, "unrecoverable play services error");
+                // Handle unrecoverable error
+            }
+        }
+    }
+
+    private void handleLocation(Location location) {
+        // Update the mLocationStatus with the lat/lng of the location
+        double latitude = location.getLatitude();
+        double longitude = location.getLongitude();
+        double accuracy = location.getAccuracy();
+        String provider = location.getProvider();
+        String time = dateFormat.format(new Date(location.getTime()));
+        lastLocationText.setText(String.format(getString(R.string.last_location), latitude, longitude, accuracy, provider, time));
+        addMarker(location);
+    }
+
     private boolean haveLocationProvider() {
         return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)
                 || locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
@@ -194,131 +322,7 @@ public class FusedLocationActivity extends FragmentActivity {
 
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        if(providersEnabled) {
-            checkGooglePlayServiceAvailability(ERROR_DIALOG_ON_RESUME_REQUEST_CODE);
-            restartLocationClient();
-        }
-    }
 
-    @Override
-    public void onPause() {
-        super.onPause();
-        if(providersEnabled) {
-            removeAllLocationUpdates();
-            if (locationClient.isConnected()) {
-                locationClient.disconnect();
-            }
-        }
-
-    }
-
-    private void removeAllLocationUpdates() {
-        if (locationClient.isConnected()) {
-            locationClient.removeLocationUpdates(mLocationCallback);
-        }
-        locationManager.removeUpdates(gpsListener);
-        locationManager.removeUpdates(networkListener);
-        gpsCheckbox.setChecked(false);
-        networkCheckbox.setChecked(false);
-        fusedCheckbox.setChecked(false);
-
-    }
-
-    private void init() {
-        if (locationClient == null) {
-            locationClient = new LocationClient(this, connectionListener, failedListener);
-            if (!(locationClient.isConnected() || locationClient.isConnecting())) {
-                locationClient.connect();
-            }
-        }
-    }
-
-    private void restartLocationClient() {
-        Log.d(TAG, "restartLocationClient");
-        if (!(locationClient.isConnected() || locationClient.isConnecting())) {
-            Log.d(TAG, "connecting!");
-            locationClient.connect(); // Somehow it becomes connected here
-            return;
-        }
-        Log.d(TAG, "already connected");
-        requestAllLocationUpdates();
-    }
-
-    private void requestAllLocationUpdates() {
-        requestFusedLocationUpdates();
-        requestGpsLocationUpdates();
-        requestGpsLocationUpdates();
-        gpsCheckbox.setChecked(true);
-        networkCheckbox.setChecked(true);
-        fusedCheckbox.setChecked(true);
-    }
-
-    private void requestFusedLocationUpdates() {
-        if (locationClient.isConnected()) {
-            LocationRequest request = LocationRequest.create();
-            request.setInterval(LOCATION_UPDATES_INTERVAL);
-            request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-            locationClient.requestLocationUpdates(request, mLocationCallback);
-        }
-    }
-
-    private void requestGpsLocationUpdates() {
-        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, gpsListener);
-    }
-
-    private void requestNetworkLocationUpdates() {
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, networkListener);
-    }
-
-    private void showErrorDialog(ConnectionResult connectionResult) {
-        // Get the error code
-        int errorCode = connectionResult.getErrorCode();
-        // Get the error dialog from Google Play services
-        Dialog errorDialog = GooglePlayServicesUtil.getErrorDialog(errorCode, this, CONNECTION_FAILURE_RESOLUTION_REQUEST);
-
-        // If Google Play services can provide an error dialog
-        if (errorDialog != null) {
-            // Create a new DialogFragment for the error dialog
-            ErrorDialogFragment errorFragment = new ErrorDialogFragment();
-            // Set the dialog in the DialogFragment
-            errorFragment.setDialog(errorDialog);
-            // Show the error dialog in the DialogFragment
-            errorFragment.show(getSupportFragmentManager(), "Location Updates");
-        }
-    }
-
-    private void checkGooglePlayServiceAvailability(int requestCode) {
-        // Query for the status of Google Play services on the device
-        int statusCode = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
-
-        if (statusCode == ConnectionResult.SUCCESS) {
-            Log.d(TAG, "play services success");
-            init();
-        } else {
-            if (GooglePlayServicesUtil.isUserRecoverableError(statusCode)) {
-                errorDialog = GooglePlayServicesUtil.getErrorDialog(statusCode,
-                        this, requestCode);
-                errorDialog.show();
-            } else {
-                Log.d(TAG, "unrecoverable play services error");
-                // Handle unrecoverable error
-            }
-        }
-    }
-
-    private void handleLocation(Location location) {
-        // Update the mLocationStatus with the lat/lng of the location
-        double latitude = location.getLatitude();
-        double longitude = location.getLongitude();
-        double accuracy = location.getAccuracy();
-        String provider = location.getProvider();
-        String time = dateFormat.format(new Date(location.getTime()));
-        lastLocationText.setText(String.format(getString(R.string.last_location), latitude, longitude, accuracy, provider, time));
-        addMarker(location);
-    }
 
     private void addMarker(Location location) {
         //String locationString = String.format(getString(R.string.location), location.getLatitude(),location.getLongitude());
@@ -333,8 +337,6 @@ public class FusedLocationActivity extends FragmentActivity {
         markers.add(marker);
 
     }
-
-    ;
 
     private float getIconHue(String provider) {
         if (provider.equals(LocationManager.GPS_PROVIDER)) {
