@@ -16,9 +16,7 @@ import android.util.Log;
 
 import java.util.List;
 
-/**
- * Created by slacker on 6/30/13.
- */
+
 public class WifiProximityService extends Service {
 
     private static final String TAG = "WifiProximityService";
