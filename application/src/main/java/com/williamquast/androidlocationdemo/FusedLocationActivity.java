@@ -100,7 +100,7 @@ public class FusedLocationActivity extends FragmentActivity {
     @Override
     public void onPause() {
         super.onPause();
-        if(providersEnabled) {
+        if(providersEnabled) { //user has not disabled Location Providers in Settings
             removeAllLocationUpdates();
             if (locationClient.isConnected()) {
                 locationClient.disconnect();
@@ -153,6 +153,16 @@ public class FusedLocationActivity extends FragmentActivity {
         fusedCheckbox.setChecked(true);
     }
 
+    private void requestGpsLocationUpdates() {
+        //request gps updates with no minimum movement time requirements
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, gpsListener);
+    }
+
+    private void requestNetworkLocationUpdates() {
+        //request gps updates with no minimum movement time requirements
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, networkListener);
+    }
+
     private void requestFusedLocationUpdates() {
         // verify location client is connected, then request updates
         if (locationClient.isConnected()) {
@@ -163,15 +173,7 @@ public class FusedLocationActivity extends FragmentActivity {
         }
     }
 
-    private void requestGpsLocationUpdates() {
-        //request gps updates with no minimum movement time requirements
-        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, gpsListener);
-    }
 
-    private void requestNetworkLocationUpdates() {
-        //request gps updates with no minimum movement time requirements
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, networkListener);
-    }
 
 
 
