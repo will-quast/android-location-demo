@@ -14,3 +14,5 @@ This project supplements the presentation and demonstrates:
  - A Custom Wifi Provider
 
 The presentation can be found at http://goo.gl/4Dg2f .
+
+Downloadable APK at https://github.com/will-quast/android-location-demo/blob/master/android-location-demo.apk .
