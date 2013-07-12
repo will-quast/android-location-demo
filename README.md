@@ -1,9 +1,9 @@
 android-location-demo
 =====================
 
-TX DevFest 2013 - Going Places With Location Services on Android
-
-    William Quast & Kris Pena
+**TX DevFest 2013**  
+**Going Places With Location Services on Android**  
+Presented by William Quast & Kris Pena
 
 NOTE: This repository is an Android Studio project.
 http://developer.android.com/sdk/installing/studio.html
