@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
+import android.os.AsyncTask;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.support.v4.app.NotificationCompat;
@@ -90,12 +91,34 @@ public class WifiProximityService extends Service {
             PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, WAKE_LOCK_TAG);
             wakeLock.acquire();
 
+            // do the checking of the scan results on a background thread
+            MyCheckScanResultTask checkScanResultTask = new MyCheckScanResultTask(context, wakeLock);
+            checkScanResultTask.execute();
+        }
+    }
+
+    /**
+     * A class to check each of the scan results for a match, on a background thread.
+     */
+    private class MyCheckScanResultTask extends AsyncTask<Void, Void, Void> {
+
+        private Context context;
+        private PowerManager.WakeLock wakeLock;
+
+        public MyCheckScanResultTask(Context context, PowerManager.WakeLock wakeLock) {
+            this.context = context;
+            this.wakeLock = wakeLock;
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+
             try {
                 // get the latest scan results
                 List<ScanResult> scan = wifiManager.getScanResults();
 
                 for (ScanResult result : scan) {
-                    // check if the ssid is a match
+                    // check if the ssid is a match for out target
                     if (TARGET_SSID.equals(result.SSID)) {
 
                         // make a notification to present
@@ -118,6 +141,8 @@ public class WifiProximityService extends Service {
                     wakeLock.release();
                 }
             }
+
+            return null; // must return something, null is the only Void
         }
     }
 }
